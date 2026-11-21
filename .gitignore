@@ -1,0 +1,47 @@
+# Local model snapshots, training checkpoints and serialized weights
+/models/
+/backend/models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.ckpt
+*.gguf
+
+# Python environments, bytecode and development caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# JavaScript dependencies, Vite cache and generated bundles
+node_modules/
+dist/
+.vite/
+*.local
+npm-debug.log*
+
+# Uploaded recordings, recreated evaluation audio and local benchmark output
+temp_*
+*.mp3
+*.wav
+*.m4a
+/evaluation/audio/
+/evaluation/local-results.json
+
+# Local configuration, credentials and operating system metadata
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini

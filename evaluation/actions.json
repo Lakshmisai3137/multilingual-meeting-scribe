@@ -1,0 +1,86 @@
+[
+  [
+    "Maya, email the budget by Thursday.",
+    "action",
+    "Maya",
+    "Thursday"
+  ],
+  [
+    "The bus will arrive after lunch.",
+    null
+  ],
+  [
+    "We decided to postpone the release.",
+    "decision",
+    null,
+    null
+  ],
+  [
+    "I will draft it.",
+    "action",
+    null,
+    null
+  ],
+  [
+    "It should be sunny all weekend.",
+    null
+  ],
+  [
+    "We approved the revised budget.",
+    "decision",
+    null,
+    null
+  ],
+  [
+    "Ravi will review the contract before Friday.",
+    "action",
+    "Ravi",
+    "Friday"
+  ],
+  [
+    "Please book the room tomorrow.",
+    "action",
+    null,
+    "tomorrow"
+  ],
+  [
+    "We might contact legal later.",
+    null
+  ],
+  [
+    "The deadline was missed last month.",
+    null
+  ],
+  [
+    "Could someone take minutes?",
+    "action",
+    null,
+    null
+  ],
+  [
+    "The final decision is to use recycled plastic.",
+    "decision",
+    null,
+    null
+  ],
+  [
+    "Jordan needs to publish the notes by 2026-12-01.",
+    "action",
+    "Jordan",
+    "2026-12-01"
+  ],
+  [
+    "Lena won't send that version.",
+    null
+  ],
+  [
+    "Thanks for joining the call.",
+    null
+  ],
+  [
+    "We signed off on the new layout.",
+    "decision",
+    null,
+    null
+  ]
+]

@@ -1,0 +1,477 @@
+{
+  "device": "cuda",
+  "hardware": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "revisions": {
+    "Systran/faster-whisper-small": "536b0662742c02347bc0e980a01041f333bce120",
+    "facebook/bart-large-cnn": "37f520fa929c961707657b28798b30c003dd100b"
+  },
+  "cases": [
+    {
+      "id": "en_us-1003119935936341070",
+      "language": "en",
+      "duration": 10.56,
+      "beams": {
+        "1": {
+          "seconds": 0.25012490000517573,
+          "rtf": 0.0236860700762477,
+          "detected": "en",
+          "peak_rss_mib": 1599.953125,
+          "peak_device_used_mib": 2578.75,
+          "errors": 1,
+          "reference_words": 19,
+          "wer": 0.05263157894736842,
+          "transcript": "However, due to the slow communication channels, styles in the West could lag behind by 25 to 30 years."
+        },
+        "5": {
+          "seconds": 0.27942919998895377,
+          "rtf": 0.026461098483802438,
+          "detected": "en",
+          "peak_rss_mib": 1599.99609375,
+          "peak_device_used_mib": 2578.75,
+          "errors": 1,
+          "reference_words": 19,
+          "wer": 0.05263157894736842,
+          "transcript": "However, due to the slow communication channels, styles in the West could lag behind by 25 to 30 years."
+        }
+      }
+    },
+    {
+      "id": "en_us-10052240106321793346",
+      "language": "en",
+      "duration": 8.76,
+      "beams": {
+        "5": {
+          "seconds": 0.2553654000075767,
+          "rtf": 0.029151301370727932,
+          "detected": "en",
+          "peak_rss_mib": 1600.140625,
+          "peak_device_used_mib": 2578.75,
+          "errors": 3,
+          "reference_words": 21,
+          "wer": 0.14285714285714285,
+          "transcript": "All nouns alongside the world's say for you always begin with a capital letter even in the middle of a sentence"
+        },
+        "1": {
+          "seconds": 0.22356779999972787,
+          "rtf": 0.025521438356133318,
+          "detected": "en",
+          "peak_rss_mib": 1600.16015625,
+          "peak_device_used_mib": 2578.75,
+          "errors": 2,
+          "reference_words": 21,
+          "wer": 0.09523809523809523,
+          "transcript": "All nouns alongside the world say for you always begin with a capital letter even in the middle of a sentence."
+        }
+      }
+    },
+    {
+      "id": "en_us-10167324587744183095",
+      "language": "en",
+      "duration": 11.46,
+      "beams": {
+        "1": {
+          "seconds": 0.3086112000019057,
+          "rtf": 0.02692942408393592,
+          "detected": "en",
+          "peak_rss_mib": 1602.875,
+          "peak_device_used_mib": 2578.75,
+          "errors": 4,
+          "reference_words": 33,
+          "wer": 0.12121212121212122,
+          "transcript": "To the north and within Easy Reach is a romantic and fascinating town of Cintra and which was made famous to foreigners after a glowing account of its splendor as recorded by Lord Byron."
+        },
+        "5": {
+          "seconds": 0.35145380000176374,
+          "rtf": 0.030667870855302242,
+          "detected": "en",
+          "peak_rss_mib": 1603.25,
+          "peak_device_used_mib": 2578.75,
+          "errors": 4,
+          "reference_words": 33,
+          "wer": 0.12121212121212122,
+          "transcript": "To the north and within Easy Reach is a romantic and fascinating town of Cintra and which was made famous to foreigners after a glowing account of its splendor as recorded by Lord Byron."
+        }
+      }
+    },
+    {
+      "id": "hi_in-10011266027513218401",
+      "language": "hi",
+      "duration": 9.12,
+      "beams": {
+        "5": {
+          "seconds": 0.7658095000078902,
+          "rtf": 0.08397033991314586,
+          "detected": "hi",
+          "peak_rss_mib": 1603.421875,
+          "peak_device_used_mib": 2578.75,
+          "errors": 12,
+          "reference_words": 24,
+          "wer": 0.5,
+          "transcript": "कुछ अडवो में आजस्तर केंड़ग होता है, जिस का मतलब यहां कि उन में थोड़े, या बिना किसी जटके से तुटनें की प्रवत्ती होती है."
+        },
+        "1": {
+          "seconds": 0.6235132000001613,
+          "rtf": 0.06836767543861419,
+          "detected": "hi",
+          "peak_rss_mib": 1603.4375,
+          "peak_device_used_mib": 2578.75,
+          "errors": 10,
+          "reference_words": 24,
+          "wer": 0.4166666666666667,
+          "transcript": "कुछ अडवो में आज़िस्टर केंदर कोता है, जिसका मतलब यहां कि उन्में थोड़े, या बिना किसी जटके से तुटनें की प्रवत्ती होती है."
+        }
+      },
+      "translation": {
+        "text": "There are few holes in the center, which means that there is little or no crack in it.",
+        "english_reference": "Some atoms have unstable nuclei which means that they tend to break apart with little or no nudging.",
+        "chrf": 0.3657522557479846,
+        "seconds": 1.8891505999927176,
+        "rtf": 0.20714370613955238,
+        "detected": "hi",
+        "peak_rss_mib": 1604.18359375,
+        "peak_device_used_mib": 2802.75
+      }
+    },
+    {
+      "id": "hi_in-10014385262415025488",
+      "language": "hi",
+      "duration": 13.8,
+      "beams": {
+        "1": {
+          "seconds": 1.0373246999952244,
+          "rtf": 0.07516845652139306,
+          "detected": "hi",
+          "peak_rss_mib": 1606.82421875,
+          "peak_device_used_mib": 2578.75,
+          "errors": 19,
+          "reference_words": 40,
+          "wer": 0.475,
+          "transcript": "गरीलेंड को बहुत कम जग़़ बसाया गया ता, नोर्ष शगास में भे कहते हैं, के एरेक रेड रेड अत्या के लिए आइस लेंच से निर्वासित की आप गया ता, और आगे पश्च्ट्म की याप्र करते समय, गरीलेंड मिला जिसे गरीलेंड नाम दिया गया."
+        },
+        "5": {
+          "seconds": 1.2726647000090452,
+          "rtf": 0.09222207971080038,
+          "detected": "hi",
+          "peak_rss_mib": 1607.875,
+          "peak_device_used_mib": 2578.75,
+          "errors": 14,
+          "reference_words": 40,
+          "wer": 0.35,
+          "transcript": "ग्रींलेंड को बहुत कम जगव बसाया गया ता, नोर्ष शगास में वे कहते हैं, कि एरेक रेड रेड हत्या के लिए आइस लेंच से निर्वासित किया गया ता, और आगे पश्च्म की याट्र करते समय, ग्रींलेंड मिला जिसे ग्रींलेंड नाम दिया गया."
+        }
+      },
+      "translation": {
+        "text": "Greenland was created in a very small place, in North Sagas they say that it was made from Iceland for Eric Red Hatia and while traveling further, Greenland was given the name Greenland",
+        "english_reference": "Greenland was settled sparsely. In the Norse sagas they say that Erik the Red was exiled from Iceland for murder, and when travelling further west, found Greenland and named it Greenland.",
+        "chrf": 0.49987997562489694,
+        "seconds": 0.3732361000002129,
+        "rtf": 0.027046094202913977,
+        "detected": "hi",
+        "peak_rss_mib": 1606.875,
+        "peak_device_used_mib": 2578.75
+      }
+    },
+    {
+      "id": "hi_in-10015817292782645020",
+      "language": "hi",
+      "duration": 15.0,
+      "beams": {
+        "5": {
+          "seconds": 0.8818547999981092,
+          "rtf": 0.05879031999987395,
+          "detected": "hi",
+          "peak_rss_mib": 1606.94921875,
+          "peak_device_used_mib": 2578.75,
+          "errors": 15,
+          "reference_words": 29,
+          "wer": 0.5172413793103449,
+          "transcript": "अईसी कोई वैस्पिक परिवाशा नहीं जिसके लिए निर्मित समान अन्टिक होते हैं पुचकर अजंश्या शव साल से पुराने समान को अन्टिक के तोर पर परिवाशित करती है"
+        },
+        "1": {
+          "seconds": 0.6251095000043279,
+          "rtf": 0.04167396666695519,
+          "detected": "hi",
+          "peak_rss_mib": 1606.98828125,
+          "peak_device_used_mib": 2578.75,
+          "errors": 16,
+          "reference_words": 29,
+          "wer": 0.5517241379310345,
+          "transcript": "अईसी कोई वैस्पिक परिवाशा नहीं है, जिसके लिए निरमिध समान अंटिक होते है, पुचकर अजंश्या सव साल से पुराने समान को अंटिक के तोर पर परिवाशित करती है."
+        }
+      },
+      "translation": {
+        "text": "There is no such thing as a voice-peak. For this reason, non-existent items are antique. Some agencies have been using antique items for more than a hundred years.",
+        "english_reference": "There is no universal definition for which manufactured items are antiques. Some tax agencies define goods older than 100 years as antiques.",
+        "chrf": 0.4040361477743772,
+        "seconds": 0.33837369999673683,
+        "rtf": 0.022558246666449122,
+        "detected": "hi",
+        "peak_rss_mib": 1607.015625,
+        "peak_device_used_mib": 2578.75
+      }
+    },
+    {
+      "id": "es_419-1001146817223348054",
+      "language": "es",
+      "duration": 12.84,
+      "beams": {
+        "1": {
+          "seconds": 0.29428650000772905,
+          "rtf": 0.022919509346396343,
+          "detected": "es",
+          "peak_rss_mib": 1607.828125,
+          "peak_device_used_mib": 2578.75,
+          "errors": 1,
+          "reference_words": 29,
+          "wer": 0.034482758620689655,
+          "transcript": "Se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo del clima extremo en el área que visitan, dado que ello puede afectar sus planes de viaje."
+        },
+        "5": {
+          "seconds": 0.3789983000024222,
+          "rtf": 0.029517001557821044,
+          "detected": "es",
+          "peak_rss_mib": 1608.7265625,
+          "peak_device_used_mib": 2578.75,
+          "errors": 1,
+          "reference_words": 29,
+          "wer": 0.034482758620689655,
+          "transcript": "Se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo del clima extremo en el área que visitan, dado que ello puede afectar sus planes de viaje."
+        }
+      },
+      "translation": {
+        "text": "It is recommended, emphatically, to travelers who report on any risk of extreme weather in the area they visit, since it can affect their travel plans.",
+        "english_reference": "Travellers are strongly advised to be aware of any risk of severe weather affecting their area as they may affect any travel plans.",
+        "chrf": 0.3968033860408758,
+        "seconds": 0.3128364000003785,
+        "rtf": 0.024364205607506115,
+        "detected": "es",
+        "peak_rss_mib": 1607.828125,
+        "peak_device_used_mib": 2578.75
+      }
+    },
+    {
+      "id": "es_419-10050510856477907332",
+      "language": "es",
+      "duration": 21.36,
+      "beams": {
+        "5": {
+          "seconds": 0.5573901000025216,
+          "rtf": 0.026095042134949516,
+          "detected": "es",
+          "peak_rss_mib": 1612.67578125,
+          "peak_device_used_mib": 2578.75,
+          "errors": 2,
+          "reference_words": 51,
+          "wer": 0.0392156862745098,
+          "transcript": "El uso adecuado de los blogs pueden poderar a los alumnos para que sean más analíticos y críticos, a través de la respuesta activa a los contenidos de internet, pueden definir sus posturas en el contexto de los escritos de otros, además de establecer sus perspectivas sobre temas específicos. Oravec 2002"
+        },
+        "1": {
+          "seconds": 0.5023390999995172,
+          "rtf": 0.02351774812731822,
+          "detected": "es",
+          "peak_rss_mib": 1613.25390625,
+          "peak_device_used_mib": 2578.75,
+          "errors": 2,
+          "reference_words": 51,
+          "wer": 0.0392156862745098,
+          "transcript": "El uso adecuado de los blogs pueden poderar a los alumnos para que sean más analíticos y críticos a través de la respuesta activa a los contenidos de internet. Pueden definir sus posturas en el contexto de los escritos de otros, además de establecer sus perspectivas sobre temas específicos. OraVec 2002"
+        }
+      },
+      "translation": {
+        "text": "The proper use of blogs can empower students to be more analytical and critical through the active response to the content of the internet. They can define their positions in the context of all the writings of others, in addition to establishing their perspectives on specific topics. OraVec 2002",
+        "english_reference": "Appropriate use of blogs \"can empower students to become more analytical and critical; through actively responding to Internet materials, students can define their positions in the context of others' writings as well as outline their own perspectives on particular issues (Oravec, 2002).",
+        "chrf": 0.5879181235998108,
+        "seconds": 0.4825495000113733,
+        "rtf": 0.02259126872712422,
+        "detected": "es",
+        "peak_rss_mib": 1613.375,
+        "peak_device_used_mib": 2578.75
+      }
+    },
+    {
+      "id": "es_419-1008205615316519958",
+      "language": "es",
+      "duration": 9.72,
+      "beams": {
+        "1": {
+          "seconds": 0.2574594000034267,
+          "rtf": 0.02648759259294513,
+          "detected": "es",
+          "peak_rss_mib": 1609.640625,
+          "peak_device_used_mib": 2578.75,
+          "errors": 0,
+          "reference_words": 22,
+          "wer": 0.0,
+          "transcript": "fue tanta la cantidad de gente que se concentró que no todos pudieron acceder al funeral en la plaza de San Pedro."
+        },
+        "5": {
+          "seconds": 0.3023383000108879,
+          "rtf": 0.03110476337560575,
+          "detected": "es",
+          "peak_rss_mib": 1609.64453125,
+          "peak_device_used_mib": 2578.75,
+          "errors": 0,
+          "reference_words": 22,
+          "wer": 0.0,
+          "transcript": "fue tanta la cantidad de gente que se concentró que no todos pudieron acceder al funeral en la plaza de San Pedro."
+        }
+      },
+      "translation": {
+        "text": "It was so many people who focused that not all were able to access the funeral in the Plaza de San Pedro.",
+        "english_reference": "The number of people present was so large that it was not possible for everybody to gain access to the funeral in St. Peter's Square.",
+        "chrf": 0.31045856200786737,
+        "seconds": 0.25011009999434464,
+        "rtf": 0.025731491768965498,
+        "detected": "es",
+        "peak_rss_mib": 1609.640625,
+        "peak_device_used_mib": 2578.75
+      }
+    },
+    {
+      "id": "ES2004a",
+      "language": "en",
+      "duration": 1049.3546875,
+      "beams": {
+        "5": {
+          "seconds": 24.805275499995332,
+          "rtf": 0.023638599794214323,
+          "detected": "en",
+          "peak_rss_mib": 2348.32421875,
+          "peak_device_used_mib": 2676.75,
+          "errors": 782,
+          "reference_words": 2809,
+          "wer": 0.27839088643645427,
+          "transcript": "Are we... we're not allowed to dim lights so we can see that a little better. Am I supposed to be standing up there? So you've got both of these clipped on? Yeah, I've got both of them. Okay, hello everybody. I'm Sarah, project manager. And this is our first meeting. Okay, this is our agenda. We will do some stuff, get to know each other a bit better, feel more comfortable with each other. Then we'll go do tool training, talk about the project plan, discuss our own ideas and everything. And we've got 25 minutes to do that as far as I can understand. Now, we're developing remote control, which you probably already know. We want it to be original, something that people haven't thought of, it's not out in the shops. Trendy, appealing to a wide market, but, you know, not a hunk of metal. And user-friendly, grannies to kids, maybe even poochers, should be able to use it. Okay, first is the functional design. This is where we all go off and do our individual work. What needs need to be fulfilled by the product, what effect the product has to have, and how it's actually going to do that. Conceptual design, what we're thinking, how it's going to go, and then the detailed design, how we're actually going to put it into practice and make it work. Okay, right. We're going to practice with the pens and draw our favourite animal on the whiteboard. I'll go first. Sum up the characteristics of that animal. So, that's the space for everyone else. We're running out of glue. Okay, I'm not going to ask you to guess. I'm going to tell you that it's supposed to be a tiger. And I see them as majestic, independent. Now, we'd like to go next. Okay? Where does this come from? There you go. Thank you. Maybe you can guess what I'm trying to make. A kind of dog? Yeah, it's actually a sitting. Sorry? It's sitting. It's not standing. Okay, I see it as one thing. It's very supportive. It's your best friend in you. You can talk to a dog. It can be your best friend. It can discriminate between you based on what you are. Second, it's loyal. And third thing, it's got intuition. Dogs can sometimes make out between a thief and a person. So, basically, these are the three unique features I think belong to a dog. Okay, thank you. Sorry. Please leave me a space at the bottom, so I can get to the top with standing on a chair. Well, since you guys have chosen the ones I wanted to do. Okay. And also, my drawing skill isn't that great. Well, as you can see the quality of the work today. I think it's outstandingly good. Okay, now I'm going to have to change what it was originally going to be because that looks like a beak now. Crocodile? Yeah, it can be a crocodile. It can be a crocodile. Firstly, it was an attempt at a t-rex and then it sort of changed into a pelican, but it can be a crocodile. That's lovely. Yeah, and I'll have to think on the spot of things that it is. Scary. Strong. Yeah, that's about it, I think. Okay. I'm very impressed with your artistic skills. They're dreadful. Oops, this is now coming apart. Let me just put the top in. I hope that clicks in. I'll hold it on. Oops, oh dear. What happened there? Technical help. Hopefully that'll stay on. Two-handed version. Again, this is off the top of my head. I was going to do a big cat too. Oh dear, it doesn't look like what I want it to be. It's not a vampire bat, honestly. Somewhere there's a body behind. That's my dreadful, that's the worst. Yeah, it's meant to be an eagle. You can tell it's a flying animal. Could have been a seagull, I never thought of a seagull. Again, I'm thinking on my feet, goodness. I suppose they're also independent. I'll put that one down again. Da-dum. They're good at golf. Independent, right? Did you say they're good at golf? Yeah. Are they? Eagle. Oh, right. I'm not good at golf. I'll say they're quite free-spirited. Flying around everywhere. Doing their own thing. And birds of prey, aren't they? Oh dear. Intrepid. Intrepid. There we go. I hope that pen's going to be okay. Finance-wise, we've got a selling price at 25 euros, which I don't actually know what that is in pounds at all. Any ideas? 17. 1.4 euro would make a bond or something. Yeah, yeah, same on that. Yeah, about 17 pounds. Should we be making notes of this? We can just refer to this later, can't we? I think so. I think so. I'd be able to pull it up. Having said that though, if you want to get one of those, the ones on the market at the moment, they're about 20 pounds anyway. Right. Yeah, we have to buy one. So I suppose later it depends if we want to undercut the price, or is it going to make our product look a cheapy-chefy option? Yeah. Production costs at 12.50. So half of the selling price is taken out by building it. And profit aim is 50 million euros, which is... In our first year? Yes. Yeah, I presume so. You've got Market Range International, and you did say earlier it's got to be accessible and usable by all age groups. We're not focusing on business market, any particular thing. It's everyone, user-friendly to everyone. Okay. Big target group. Yes. I don't think we have to... I don't think it's a case of worrying about different languages and things like that, making that a key point, just that it's going to be in an international market like Australia, America, things like that. Okay. What are your experiences with the new controls? I mean, we had three videos, a TV and a sort of amp thing all set up. So we got one of the universal remote controls that you program each of your things into, but that kept losing the signals, so we'd have to reprogram it every now and again. I think it was quite cheapy as well, so that might have had something to do with it. But that was quite good, the fact that you could... You used all the ones at the same time. You could have six remote controls. Right. You want to integrate everything into one, like... Yeah. Okay. My experience has only been given the remote control with the object I buy, not doing any tampering with it and programming, using it to program TV videos and things, but basically on-off volume, up and down, channel one to that basic function. I don't think I could go any further with it than that, so I suppose it's got to be something usable by someone like me as well. That's the main stuff anyway. I mean, and you don't want to... I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do and just sitting there searching for the tele-text button or something like that. And symbols that you don't necessarily understand. Symbols you're meant to understand that you don't. I don't really show symbols. When you've got the main things on the front of it and a section opens up or something to the other functions when you can do sound or options kind of recording, things like that inside it, because it doesn't make, when you pick it up, it doesn't make it really complicated to look at. It's obvious what you're doing. Actually, that just raises a point. I wonder what our design people think. But you know on a mobile phone, you can press a key and it gives you a menu. It's got a menu display. I wonder if incorporating that into the design of a remote control might be useful. So you've got a little LCD display. I was thinking of the same lines. Instead of having too many buttons and make it complicated for the user, maybe have an LCD display or something like that, like a mobile. With menus. With menus. And if it's somewhat similar to what you have on mobile phone, people might find it easier to browse and navigate also. What about the older generation? What about granny and grandad? My grandad can answer his mobile phone, but he couldn't even dream of texting or something like that. Can he program his remote control, or is he basic with that too? I don't think they take things. My grandad is actually better than me at using tele-text. So that's the problem, regardless of any design modifications you come up with. That's going to be a problem, any of you with the older generation perhaps. And that's another issue, how we tackle that. Well, it just needs to be, as long as it's sort of self-intuitive and you can work out why everything's doing. Because I mean, menus on sort of new phones now, they sort of go all these pictures and stuff, which makes it fairly obvious what you're trying to do. I don't know how. I don't like the new phones that kind of got a windows-based running system. I find it really confusing. I kept getting lost in the phone. I have not got a new one, but my friend got a new one, and I was trying to do things with it. And I just kept getting lost, but that's just me. I don't know how for 25 or 12 euros, 50, how much of an excellent screen you could get, you'd have to sort of keep it down to a black and white LCD thing. Is it possible that for the older generation you could have like an extra button that you press for large print, like you do in large print books? Obviously, it displays less on the screen. It displays less on the screen, but as long as they can read it, that's the main thing. A Warbank kind of a dual function in that you've got the basic buttons just for your play, volume, program things. And also, and then a menu to go into with obvious pictures, obvious symbols, and that's where you control recording and things like that. The other thing is, just tacking into mobile phone design features again, you could have a flip top remote control, so that when you flip over the top, your screen is, you can have a bigger screen in the flip over. I think that's a cost thing. I don't know how much we're going to know about it. It might save a bit of space instead of looking bulky, it might look small, but it might have cost implications. And there's no reason we need to make it look as fashionable and stylish as a mobile phone, it can still be lightweight plastic, something that's easily molded and produced. Sorry, I'm treading on your territory, guys. Right, okay, we've got half an hour for the next meeting, so we're all going to go off and do our individual things. I think that's probably about it, and then we'll come back in the age again, and I get to do another fantastic program presentation. Just a quick thing about the, what you're saying about the, doesn't need to be fashionable, so I had a quick look at the company website, and it's like the, we put the fashion into electronics. I think the whole design thing might be, I mean, you can still have plastic in it, look quite good. Yeah, I mean, it doesn't have to be, but that was my main point, we do have to use metal, I don't know if using plastic does make it cheaper, I presume it would. Yeah, I agree with you. I mean, the sky remote controls, and they're kind of molded and look a bit different, and the telly west remote controls are silver plastic, which looks a bit smarter, so yeah, I guess that's it. Okay, so let's break it up there. Okay, so see you in half an hour. Do we go back to our room?"
+        },
+        "1": {
+          "seconds": 18.68043320000288,
+          "rtf": 0.017801829469602366,
+          "detected": "en",
+          "peak_rss_mib": 2441.421875,
+          "peak_device_used_mib": 2580.75,
+          "errors": 812,
+          "reference_words": 2809,
+          "wer": 0.2890708437166251,
+          "transcript": "We were not allowed to dim lights so we wouldn't see that in the classroom. Am I supposed to be standing up there? So you've got both of these clicked on? Yeah, I've got both of them. Okay, hello everybody. I'm Sarah, project manager. And this is our first meeting. Okay, this is our agenda. So we will do some stuff, get to know each other a bit better, feel more comfortable with each other. Then we'll go do tool training, talk about the project plan, discuss our own ideas and everything. And we've got 25 minutes to do that as far as I can understand. Now we're developing remote control, which you probably already know. We want it to be original, something that people haven't thought of, it's not out in the shops. Trendy, appealing to a wide market, but not a hunk of metal. And user friendly, granite to kids, maybe even poochers should be able to use it. Okay, first is the functional design. This is where we all go off and do our individual work. What needs to be fulfilled by the product, what effect the product has to have, and how it's actually going to do that. Conceptual design, what we're thinking, how it's going to go. And then the detailed design, how we're actually going to put it into practice and make it work. Okay, right. We're going to practice with the pens and draw our favourite animal on the whiteboard. I'll go first. Sum up the characteristics of that animal. So, that's the space for everyone else. We're running out of glue. Okay, I'm not going to ask you to guess, I'm going to tell you that it's supposed to be a tiger. And I see them as majestic, independent. Now, we'd like to go next. Okay? Wish. Got. Where does this come from? Oh, here. Thank you. Maybe you can guess what I'm trying to make. A kind of dog? Yeah. It's actually a sitting. Sorry? It's sitting. It's not standing. Okay, I see it as one thing. It's very supportive. It's your best friend in your... You can talk to a dog, it can be your best friend. It doesn't discriminate between you based on what you are. Second, it's loyal. And third thing, it's got intuition. Dogs can sometimes make out between a thief and a person. So, basically, these are the three unique features I think belong to a dog. Okay, thank you. Okay. Please leave me a space at the bottom, I'm a little. Get to the top. We're standing on a chair. I think the two guys have chosen the ones I wanted to do. Okay. Have to go with the sign a bit random. And also my drawing skill, isn't that great? Well, as you can see, the quality of the work today is... I think it's outstandingly good. Okay, now I'm going to have to change what it was originally going to be, because that looks like a beak now, so... Crocodile? Yeah, it can be a crocodile. It can be a crocodile. It was an attempt at a T-rex, and it sort of changed into a pelican, but it can be a crocodile. That's lovely. Yeah, and I'll have to think on the spot of things that it is. Scary, strong... Yeah, that's about it, I think. Okay. I'm very impressed with your artistic skills. Minds are dreadful. Oops, this is now coming apart. Let me just put the top in. I hope that clicks in. I'll just hold it on. Oops, oh dear. What happened there? Technical help. Hopefully that'll stay on. Two-handed worship. Okay. Again, this is off the top of my head. I was going to do a big cat, too. Oh dear, it doesn't look like what I want it to be. It's not a vampire bat, honestly. Somewhere there's a body behind. That's my dreadful, that's the worst. Yeah, it's meant to be an eagle. Right, you can tell it's a flying animal. Could have been a seagull, I never thought of a seagull. An eagle. Again, I'm thinking on my feet, goodness. I suppose they're also independent. I'll put that one down again. They're good at golf. Independent, right? Did you say they're good at golf? Yeah. An eagle. Oh, right. I'm not good at golf. I'll say they're quite free-spirited. Flying around everywhere. Doing their own thing. And birds of prey, aren't they? Oh dear. Intrepid. Intrepid. There we go. I hope that pen's going to be okay. Finance-wise, we've got a selling price at 25 euros, which I don't actually know what that is in pounds at all. Any ideas? So that's 1.4 euros. 1.4 euros would make a bond or something. Yeah, same like that. Yeah, about 17 pounds. Okay. Should we be making notes of this? We can just refer to this later. I think so. I'd be able to put it up or I could get it in the shared folder. Having said that, though, if you want to get one of those, the ones on the market at the moment, they're about 20 pounds anyway. Right. Yeah, we have to buy one. So I suppose later it depends if we want to undercut the price, or is it going to make our product look a cheapy-chefy option? Yeah. Production costs at 12.50. So half of the selling price is taken out by building it. And profit aim is 50 million euros, which is... In our first year? Yeah. Yeah. I presume so. You've got Market Range International, and you did say earlier it's got to be accessible and usable by all age groups. We're not focusing on business market, any particular thing. It's everyone, user-friendly to everyone. Okay. Big target group. Yes. I don't think it's a case of worrying about different languages and things like that, making that a key point, just that it's going to be in an international market, like Australia, America, things like that. Okay. What are your experiences with the new controls? I mean, we got... We had three videos, a TV and a sort of amp thing all set up. So we got one of the universal remote controls. Yeah. And you program each of your things into it, but that kept losing the signals, so we'd have to reprogram it every now and again. I think it was quite cheapy as well. Yeah. So that might have had something to do with it, but that was quite good, the fact that you could... You sold the ones at some time. Didn't have six remote controls in front of you. Right. So you want to integrate everything into one, like... Yeah. My experience has only been given the remote control with the object I buy, not doing any tampering with it and programming, using it to program TV videos and things, but basically on-off volume, up and down, channel one to that basic function. I don't think I could go any further with it than that. So I suppose it's got to be something usable by someone like me as well. Yeah, that's the main stuff anyway. I mean, and you don't want to... I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do and just sitting there searching for the tele-text button or something like that. And symbols that you don't necessarily understand. Symbols are meant to understand that you don't. I don't know. I suppose we could take them. When you've got the main things on the front of it and a section opens up or something to the other functions when you can do sound or options kind of recording, things like that inside it. Because it doesn't make... When you pick it up, it doesn't make it really complicated to look at. It's obvious what you're doing. Actually, that just raises a point. I wonder what our design people think. But you know on a mobile phone, you can press a key and it gives you a menu. It's got a menu display. I wonder if incorporating that into the design of a remote control might be useful. So you've got a little LCD display. I was thinking of the same lines. Instead of having too many buttons and make it complicated for the user, maybe have an LCD display or something like that, like a mobile. With menus. With menus. And if it's somewhat similar to what you have on mobile phone, people might find it easier to browse and navigate also. What about the older generation? What about granny and grandad? My grandad can answer his mobile phone, but he couldn't even dream of texting or something like that. Can he program his remote control, or is he basic with that too? I don't think they take things. My grandad is actually better than me at using tele-text. So that's the problem, regardless of any design modifications you come up with. That's going to be a problem anyway with the older generation perhaps. That's another issue. How do we tackle that? Well, it just needs to be, as long as it's self-intuitive and you can work out why everything's doing. Because I mean menus on sort of new phones now, they sort of go all these pictures and stuff, which makes it fairly obvious what you're trying to do. I don't know how. I don't like the new phones that kind of got a windows-based running system. I find it really confusing. I kept getting lost in the phone. I have not got a new one, but my friend got a new one. I was trying to do things with it, and I just kept getting lost, but that's just me. I don't know how for 25 or 12 euros, 50, how much of an excellent screen you could get. You'd have to sort of keep it down to a black and white LCD thing. Is it possible that for the older generation you could have like an extra button that you press for large print, like you do in large print books? Obviously it displays less on the screen, but as long as they can read it, that's the main thing. A Warbank kind of a dual function in that you've got the basic buttons just for your play, volume, program things. And also, and then a menu to go into with obvious pictures, obvious symbols, and that's where you control recording and things like that. The other thing is just tucking into mobile phone design features again. You could have a flip top remote control so that when you flip over the top, your screen is, you can have a bigger screen in the flip over. I think that's a cost thing. I don't know how much we're going to know about it. It might save a bit of space. Instead of looking bulky, it might look small. But it might have cost implications. And there's no reason we need to make it look as fashionable and stylish as a mobile phone. It can still be lightweight plastic, something that's easily molded and produced. Sorry, I'm chatting with your territory guys. Right, okay, we've got half an hour for the next meeting, so we're all going to go off and do our individual things. I think that's probably about it, and then we'll come back in the age again. And I get to do another fantastic program presentation. Just a quick thing about the, what you're saying about the, it doesn't need to be fashionable. I had a quick look at the company website, and it's like the, we put the fashion into electronics. I think the whole design thing might be hard. I mean, you can still have plastic and it looks quite good. Yeah, I mean, it doesn't have to be, that was my main point. We do have to use metal. I don't know if using plastic does make it cheaper, I presume it would. I would, yeah. I mean, the sky remote controls, and they're kind of molded and look a bit different than the tele-west remote controls, so the plastic looks a bit smarter. So, yeah, I guess that's it. Okay, so let's break it up there. Okay, so see you in half an hour. Do we go back to our room? I think so, yeah."
+        }
+      },
+      "summaries": {
+        "bart_reference": {
+          "text": "The company is aiming for a profit of fifty million Euros in its first year. The pen is designed to be accessible and usable by all age groups.",
+          "rouge1": 0.1518987341772152,
+          "rouge2": 0.01282051282051282,
+          "rougeL": 0.08860759493670886
+        },
+        "bart_asr": {
+          "text": "Market Range International has a selling price of 25 euros. Profit aim is 50 million euros, which is... In our first year? Yes. We're not focusing on business market, any particular thing. It's everyone, user-friendly to everyone.",
+          "rouge1": 0.1411764705882353,
+          "rouge2": 0.023809523809523808,
+          "rougeL": 0.08235294117647059
+        },
+        "lead3_asr": {
+          "text": "Are we... we're not allowed to dim lights so we can see that a little better. Am I supposed to be standing up there?",
+          "rouge1": 0.06451612903225806,
+          "rouge2": 0.0,
+          "rougeL": 0.05161290322580645
+        }
+      },
+      "reference_summary": "The Project Manager gave an introduction to the goal of the project, to create a trendy yet user-friendly remote. She presented a long-range agenda for the whole project. The group introduced themselves to each other and practiced with the meeting room tools by drawing on the board. The Project Manager presented the project budget, the projected price point, and the projected profit aim for the project. Then the group began a discussion about their own experiences with remote controls to generate initial design ideas for making the product user-friendly. They discussed grouping features into a menu and adding an LCD display. They also discussed the look of various materials that may be used in the design, in keeping with the company's goal to create fashionable electronics.",
+      "reference_decisions": []
+    }
+  ],
+  "extraction": {
+    "keyword": {
+      "cases": 16,
+      "tp": 2,
+      "fp": 3,
+      "fn": 8,
+      "precision": 0.4,
+      "recall": 0.2,
+      "f1": 0.26666666666666666,
+      "exact_including_fields": 1
+    },
+    "structured": {
+      "cases": 16,
+      "tp": 8,
+      "fp": 0,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.8888888888888888,
+      "exact_including_fields": 8
+    }
+  },
+  "asr": {
+    "en": {
+      "1": {
+        "n": 4,
+        "corpus_wer": 0.28417765440666204,
+        "median_rtf": 0.02460375421619051,
+        "peak_rss_mib": 2441.421875,
+        "peak_device_used_mib": 2580.75
+      },
+      "5": {
+        "n": 4,
+        "corpus_wer": 0.2741151977793199,
+        "median_rtf": 0.027806199927265185,
+        "peak_rss_mib": 2348.32421875,
+        "peak_device_used_mib": 2676.75
+      }
+    },
+    "hi": {
+      "1": {
+        "n": 3,
+        "corpus_wer": 0.4838709677419355,
+        "median_rtf": 0.06836767543861419,
+        "peak_rss_mib": 1606.98828125,
+        "peak_device_used_mib": 2578.75
+      },
+      "5": {
+        "n": 3,
+        "corpus_wer": 0.44086021505376344,
+        "median_rtf": 0.08397033991314586,
+        "peak_rss_mib": 1607.875,
+        "peak_device_used_mib": 2578.75
+      }
+    },
+    "es": {
+      "1": {
+        "n": 3,
+        "corpus_wer": 0.029411764705882353,
+        "median_rtf": 0.02351774812731822,
+        "peak_rss_mib": 1613.25390625,
+        "peak_device_used_mib": 2578.75
+      },
+      "5": {
+        "n": 3,
+        "corpus_wer": 0.029411764705882353,
+        "median_rtf": 0.029517001557821044,
+        "peak_rss_mib": 1612.67578125,
+        "peak_device_used_mib": 2578.75
+      }
+    }
+  },
+  "summary_scores": {
+    "bart_reference": {
+      "rouge1": 0.1518987341772152,
+      "rouge2": 0.01282051282051282,
+      "rougeL": 0.08860759493670886
+    },
+    "bart_asr": {
+      "rouge1": 0.1411764705882353,
+      "rouge2": 0.023809523809523808,
+      "rougeL": 0.08235294117647059
+    },
+    "lead3_asr": {
+      "rouge1": 0.06451612903225806,
+      "rouge2": 0.0,
+      "rougeL": 0.05161290322580645
+    }
+  },
+  "translation_chrf": {
+    "hi": 0.4232227930490862,
+    "es": 0.43172669054951796
+  },
+  "scripted_reversal_summary": "We propose releasing the app on Friday. The schedule is tentative. We decided to cancel the Friday release and ship on Monday instead."
+}
