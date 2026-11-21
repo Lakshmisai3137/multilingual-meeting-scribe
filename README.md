@@ -11,7 +11,7 @@ Turn a meeting recording into a timestamped transcript, an English brief and a l
 ![Three.js](https://img.shields.io/badge/Three.js-WebGL-222222)
 ![Offline-first](https://img.shields.io/badge/Offline--first-local%20inference-287D52)
 
-[Deep learning architecture](#deep-learning-architecture) · [Run locally](#run-locally) · [Evaluation](#evaluation) · [First GitHub upload](#first-github-upload)
+[Deep learning architecture](#deep-learning-architecture) · [Run locally](#run-locally) · [Evaluation](#evaluation)
 
 ## Overview
 
@@ -283,37 +283,3 @@ The smoke test briefly occupies all three job slots. To verify the frontend buil
 | Processing starts after a file upload. | Stream microphone audio over WebSockets and measure partial-transcript latency. |
 | English summaries depend on news-domain BART. Translation and repeated compression can lose context. | Fine-tune on AMI **training** meetings and evaluate factual consistency on held-out meetings. |
 | English rules capture explicit commitments and decisions. Indirect requests, unnamed owners and implicit reversals can be missed. | Expand independently labeled extraction cases and measure precision and recall before changing the rules. |
-
-## First GitHub upload
-
-For the maintainer publishing this local folder for the first time. Readers who cloned the published repository can use [Run locally](#run-locally).
-
-1. **Create an empty remote.** Sign in to GitHub, create a repository named `multilingual-meeting-scribe` and choose its visibility. Leave README, .gitignore and license initialization off so the remote starts empty. Copy its HTTPS URL. [Create a repository](https://github.com/new) · [GitHub's import guide](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github)
-
-2. **Initialize and preview.** Open PowerShell in the folder containing this README, `package.json` and `backend/`. Run the following commands. In the short status, `!!` marks ignored entries and `??` marks untracked candidates. The last command prints the ignore rule for each representative path, including paths that have not been created yet.
-
-   ```powershell
-   git init -b main
-   git status --short --ignored
-   git check-ignore -v -- models/example.bin backend/models/example.json venv/example.txt .venv/example.txt node_modules/example.js frontend/node_modules/example.js temp_upload.wav .env
-   ```
-
-3. **Stage and inspect the first commit.** The explicit list covers this project's source and checked-in evaluation data. Review the displayed paths before committing. The final command must print **nothing**. It finds files already in the index that match ignore rules. If an unwanted path is staged, run `git rm --cached -- "path/to/file"` (add `-r` for a directory), update the ignore rules as needed and repeat the checks. This removes the path from the index while keeping the local copy.
-
-   ```powershell
-   git add -- .gitignore README.md backend src public evaluation evaluate.py index.html package.json package-lock.json postcss.config.js tailwind.config.js vite.config.js
-   git status
-   git diff --cached --stat
-   git ls-files --cached --ignored --exclude-standard
-   ```
-
-4. **Commit and push.** Replace `YOUR_REPOSITORY_URL` below with the empty repository's HTTPS URL. If Git requests an author identity, set `git config user.name "Your Name"` and `git config user.email "YOUR_COMMIT_EMAIL"` in this folder, then retry the commit. Check that `git remote -v` shows your intended destination before running the push. Complete the GitHub sign-in if prompted.
-
-   ```powershell
-   git commit -m "Publish Scribe.ai offline meeting scribe"
-   git remote add origin YOUR_REPOSITORY_URL
-   git remote -v
-   git push -u origin main
-   ```
-
-Reload the remote repository and open the README. A fresh clone gets the source, dependency lists and evaluation report. Each user recreates the model cache with the downloader.
